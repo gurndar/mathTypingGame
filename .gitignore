@@ -1,0 +1,18 @@
+# Godot temporary folders
+.import/
+.godot/
+
+# Exported builds
+export/
+*.pck
+*.exe
+*.zip
+
+# C# (Mono)
+.mono/
+*.csproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
