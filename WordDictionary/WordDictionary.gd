@@ -8,23 +8,117 @@ extends Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var words =	load_words_from_csv("res://math_terms.csv")
+
 	
 	pass # Replace with function body.
-func load_words_from_csv(file_path):
-	var words = {}
-	var file = File.new()
-	
-	if file.open(file_path, File.READ) == OK:
-		file.get_line()
-		while not file.eof_reached():
-			var line = file.get_line()
-			var parts = line.split(",")
-			if parts.size() == 2:
-				words[parts[0].strip_edges()] = parts[1].strip_edges()
-		file.close()
-	else:
-		print("error")
+func load_words_from_csv():
+	var words = {
+	"addition": "덧셈",
+	"subtraction": "뺄셈",
+	"multiplication": "곱셈",
+	"division": "나눗셈",
+	"equation": "방정식",
+	"variable": "변수",
+	"coefficient": "계수",
+	"constant": "상수",
+	"exponent": "지수",
+	"factor": "인수",
+	"prime number": "소수",
+	"composite number": "합성수",
+	"fraction": "분수",
+	"decimal": "소수",
+	"percentage": "백분율",
+	"ratio": "비율",
+	"proportion": "비례",
+	"root": "근",
+	"square root": "제곱근",
+	"cube root": "세제곱근",
+	"power": "거듭제곱",
+	"logarithm": "로그",
+	"trigonometry": "삼각법",
+	"sine": "사인",
+	"cosine": "코사인",
+	"tangent": "탄젠트",
+	"cotangent": "코탄젠트",
+	"secant": "시컨트",
+	"cosecant": "코시컨트",
+	"angle": "각도",
+	"acute angle": "예각",
+	"obtuse angle": "둔각",
+	"right angle": "직각",
+	"straight angle": "평각",
+	"complementary angles": "보각",
+	"supplementary angles": "여각",
+	"polygon": "다각형",
+	"triangle": "삼각형",
+	"quadrilateral": "사각형",
+	"rectangle": "직사각형",
+	"square": "정사각형",
+	"rhombus": "마름모",
+	"parallelogram": "평행사변형",
+	"trapezoid": "사다리꼴",
+	"circle": "원",
+	"radius": "반지름",
+	"diameter": "지름",
+	"circumference": "둘레",
+	"area": "면적",
+	"perimeter": "둘레",
+	"volume": "부피",
+	"surface area": "표면적",
+	"solid": "입체",
+	"cube": "정육면체",
+	"sphere": "구",
+	"cylinder": "원기둥",
+	"cone": "원뿔",
+	"pyramid": "피라미드",
+	"coordinate": "좌표",
+	"origin": "원점",
+	"x-axis": "x축",
+	"y-axis": "y축",
+	"z-axis": "z축",
+	"linear equation": "일차방정식",
+	"quadratic equation": "이차방정식",
+	"polynomial": "다항식",
+	"rational number": "유리수",
+	"irrational number": "무리수",
+	"real number": "실수",
+	"imaginary number": "허수",
+	"complex number": "복소수",
+	"absolute value": "절대값",
+	"inequality": "부등식",
+	"function": "함수",
+	"domain": "함수의 정의역",
+	"range": "함수의 공역",
+	"derivative": "미분",
+	"integral": "적분",
+	"limit": "극한",
+	"slope": "기울기",
+	"intercept": "절편",
+	"matrix": "행렬",
+	"determinant": "행렬식",
+	"vector": "벡터",
+	"scalar": "스칼라",
+	"addition rule": "덧셈 법칙",
+	"multiplication rule": "곱셈 법칙",
+	"commutative property": "교환 법칙",
+	"associative property": "결합 법칙",
+	"distributive property": "분배 법칙",
+	"probability": "확률",
+	"permutations": "순열",
+	"combinations": "조합",
+	"binomial theorem": "이항정리",
+	"statistics": "통계",
+	"mean": "평균",
+	"median": "중앙값",
+	"mode": "최빈값",
+	"variance": "분산",
+	"standard deviation": "표준편차",
+	"correlation": "상관관계",
+	"regression": "회귀 분석",
+	"hypothesis testing": "가설 검정",
+	"chi-square test": "카이제곱 검정"
+}
+
 	return words
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

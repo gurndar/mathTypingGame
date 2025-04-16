@@ -4,7 +4,9 @@ extends Node2D
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
-onready var hp = 100;
+
+var actual_health := 100
+var displayed_health := 100
 onready var score = 0;
 onready var stack = 0;
 # Called when the node enters the scene tree for the first time.
@@ -16,6 +18,12 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	displayed_health = lerp(displayed_health, actual_health, 5 * delta)
+	$CanvasLayer/HPbar.value = displayed_health
+	if actual_health <= 0:
+		Global.score = score
+		Global.update_best_score()
+		get_tree().change_scene("res://UI_Scene/GameOver.tscn")
 	pass
 
 
@@ -25,10 +33,11 @@ func _on_Timer_timeout():
 	var scene = preload("res://Label/text.tscn")
 	var instance = scene.instance()
 	instance.name = "GeneratedText"
-	
+	instance.connect("missed",self,"_on_note_missed")
 	add_child(instance)
 	pass # Replace with function body.
-
+func _on_note_missed():
+	actual_health -= 10
 
 func _on_LineEdit_text_entered(new_text):
 	for t in $".".get_children():

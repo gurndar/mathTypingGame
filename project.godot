@@ -14,6 +14,10 @@ config/name="MathJargonsTajagame"
 run/main_scene="res://UI_Scene/Title.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Global="*res://Global.gd"
+
 [display]
 
 window/size/width=600
@@ -24,6 +28,9 @@ window/stretch/aspect="keep"
 [global]
 
 import=false
+auto=false
+autoload=false
+icon=false
 
 [gui]
 

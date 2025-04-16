@@ -1,0 +1,418 @@
+[
+  {
+    "Math Term": "Addition",
+    "Korean Translation": "덧셈"
+  },
+  {
+    "Math Term": "Subtraction",
+    "Korean Translation": "뺄셈"
+  },
+  {
+    "Math Term": "Multiplication",
+    "Korean Translation": "곱셈"
+  },
+  {
+    "Math Term": "Division",
+    "Korean Translation": "나눗셈"
+  },
+  {
+    "Math Term": "Equation",
+    "Korean Translation": "방정식"
+  },
+  {
+    "Math Term": "Variable",
+    "Korean Translation": "변수"
+  },
+  {
+    "Math Term": "Coefficient",
+    "Korean Translation": "계수"
+  },
+  {
+    "Math Term": "Constant",
+    "Korean Translation": "상수"
+  },
+  {
+    "Math Term": "Exponent",
+    "Korean Translation": "지수"
+  },
+  {
+    "Math Term": "Factor",
+    "Korean Translation": "인수"
+  },
+  {
+    "Math Term": "Prime Number",
+    "Korean Translation": "소수"
+  },
+  {
+    "Math Term": "Composite Number",
+    "Korean Translation": "합성수"
+  },
+  {
+    "Math Term": "Fraction",
+    "Korean Translation": "분수"
+  },
+  {
+    "Math Term": "Decimal",
+    "Korean Translation": "소수"
+  },
+  {
+    "Math Term": "Percentage",
+    "Korean Translation": "백분율"
+  },
+  {
+    "Math Term": "Ratio",
+    "Korean Translation": "비율"
+  },
+  {
+    "Math Term": "Proportion",
+    "Korean Translation": "비례"
+  },
+  {
+    "Math Term": "Root",
+    "Korean Translation": "근"
+  },
+  {
+    "Math Term": "Square Root",
+    "Korean Translation": "제곱근"
+  },
+  {
+    "Math Term": "Cube Root",
+    "Korean Translation": "세제곱근"
+  },
+  {
+    "Math Term": "Power",
+    "Korean Translation": "거듭제곱"
+  },
+  {
+    "Math Term": "Logarithm",
+    "Korean Translation": "로그"
+  },
+  {
+    "Math Term": "Trigonometry",
+    "Korean Translation": "삼각법"
+  },
+  {
+    "Math Term": "Sine",
+    "Korean Translation": "사인"
+  },
+  {
+    "Math Term": "Cosine",
+    "Korean Translation": "코사인"
+  },
+  {
+    "Math Term": "Tangent",
+    "Korean Translation": "탄젠트"
+  },
+  {
+    "Math Term": "Cotangent",
+    "Korean Translation": "코탄젠트"
+  },
+  {
+    "Math Term": "Secant",
+    "Korean Translation": "시컨트"
+  },
+  {
+    "Math Term": "Cosecant",
+    "Korean Translation": "코시컨트"
+  },
+  {
+    "Math Term": "Angle",
+    "Korean Translation": "각도"
+  },
+  {
+    "Math Term": "Acute Angle",
+    "Korean Translation": "예각"
+  },
+  {
+    "Math Term": "Obtuse Angle",
+    "Korean Translation": "둔각"
+  },
+  {
+    "Math Term": "Right Angle",
+    "Korean Translation": "직각"
+  },
+  {
+    "Math Term": "Straight Angle",
+    "Korean Translation": "평각"
+  },
+  {
+    "Math Term": "Complementary Angles",
+    "Korean Translation": "보각"
+  },
+  {
+    "Math Term": "Supplementary Angles",
+    "Korean Translation": "여각"
+  },
+  {
+    "Math Term": "Polygon",
+    "Korean Translation": "다각형"
+  },
+  {
+    "Math Term": "Triangle",
+    "Korean Translation": "삼각형"
+  },
+  {
+    "Math Term": "Quadrilateral",
+    "Korean Translation": "사각형"
+  },
+  {
+    "Math Term": "Rectangle",
+    "Korean Translation": "직사각형"
+  },
+  {
+    "Math Term": "Square",
+    "Korean Translation": "정사각형"
+  },
+  {
+    "Math Term": "Rhombus",
+    "Korean Translation": "마름모"
+  },
+  {
+    "Math Term": "Parallelogram",
+    "Korean Translation": "평행사변형"
+  },
+  {
+    "Math Term": "Trapezoid",
+    "Korean Translation": "사다리꼴"
+  },
+  {
+    "Math Term": "Circle",
+    "Korean Translation": "원"
+  },
+  {
+    "Math Term": "Radius",
+    "Korean Translation": "반지름"
+  },
+  {
+    "Math Term": "Diameter",
+    "Korean Translation": "지름"
+  },
+  {
+    "Math Term": "Circumference",
+    "Korean Translation": "둘레"
+  },
+  {
+    "Math Term": "Area",
+    "Korean Translation": "면적"
+  },
+  {
+    "Math Term": "Perimeter",
+    "Korean Translation": "둘레"
+  },
+  {
+    "Math Term": "Volume",
+    "Korean Translation": "부피"
+  },
+  {
+    "Math Term": "Surface Area",
+    "Korean Translation": "표면적"
+  },
+  {
+    "Math Term": "Solid",
+    "Korean Translation": "입체"
+  },
+  {
+    "Math Term": "Cube",
+    "Korean Translation": "정육면체"
+  },
+  {
+    "Math Term": "Sphere",
+    "Korean Translation": "구"
+  },
+  {
+    "Math Term": "Cylinder",
+    "Korean Translation": "원기둥"
+  },
+  {
+    "Math Term": "Cone",
+    "Korean Translation": "원뿔"
+  },
+  {
+    "Math Term": "Pyramid",
+    "Korean Translation": "피라미드"
+  },
+  {
+    "Math Term": "Coordinate",
+    "Korean Translation": "좌표"
+  },
+  {
+    "Math Term": "Origin",
+    "Korean Translation": "원점"
+  },
+  {
+    "Math Term": "X-Axis",
+    "Korean Translation": "X축"
+  },
+  {
+    "Math Term": "Y-Axis",
+    "Korean Translation": "Y축"
+  },
+  {
+    "Math Term": "Z-Axis",
+    "Korean Translation": "Z축"
+  },
+  {
+    "Math Term": "Linear Equation",
+    "Korean Translation": "일차방정식"
+  },
+  {
+    "Math Term": "Quadratic Equation",
+    "Korean Translation": "이차방정식"
+  },
+  {
+    "Math Term": "Polynomial",
+    "Korean Translation": "다항식"
+  },
+  {
+    "Math Term": "Rational Number",
+    "Korean Translation": "유리수"
+  },
+  {
+    "Math Term": "Irrational Number",
+    "Korean Translation": "무리수"
+  },
+  {
+    "Math Term": "Real Number",
+    "Korean Translation": "실수"
+  },
+  {
+    "Math Term": "Imaginary Number",
+    "Korean Translation": "허수"
+  },
+  {
+    "Math Term": "Complex Number",
+    "Korean Translation": "복소수"
+  },
+  {
+    "Math Term": "Absolute Value",
+    "Korean Translation": "절대값"
+  },
+  {
+    "Math Term": "Inequality",
+    "Korean Translation": "부등식"
+  },
+  {
+    "Math Term": "Function",
+    "Korean Translation": "함수"
+  },
+  {
+    "Math Term": "Domain",
+    "Korean Translation": "함수의 정의역"
+  },
+  {
+    "Math Term": "Range",
+    "Korean Translation": "함수의 공역"
+  },
+  {
+    "Math Term": "Derivative",
+    "Korean Translation": "미분"
+  },
+  {
+    "Math Term": "Integral",
+    "Korean Translation": "적분"
+  },
+  {
+    "Math Term": "Limit",
+    "Korean Translation": "극한"
+  },
+  {
+    "Math Term": "Slope",
+    "Korean Translation": "기울기"
+  },
+  {
+    "Math Term": "Intercept",
+    "Korean Translation": "절편"
+  },
+  {
+    "Math Term": "Matrix",
+    "Korean Translation": "행렬"
+  },
+  {
+    "Math Term": "Determinant",
+    "Korean Translation": "행렬식"
+  },
+  {
+    "Math Term": "Vector",
+    "Korean Translation": "벡터"
+  },
+  {
+    "Math Term": "Scalar",
+    "Korean Translation": "스칼라"
+  },
+  {
+    "Math Term": "Addition Rule",
+    "Korean Translation": "덧셈 법칙"
+  },
+  {
+    "Math Term": "Multiplication Rule",
+    "Korean Translation": "곱셈 법칙"
+  },
+  {
+    "Math Term": "Commutative Property",
+    "Korean Translation": "교환 법칙"
+  },
+  {
+    "Math Term": "Associative Property",
+    "Korean Translation": "결합 법칙"
+  },
+  {
+    "Math Term": "Distributive Property",
+    "Korean Translation": "분배 법칙"
+  },
+  {
+    "Math Term": "Probability",
+    "Korean Translation": "확률"
+  },
+  {
+    "Math Term": "Permutations",
+    "Korean Translation": "순열"
+  },
+  {
+    "Math Term": "Combinations",
+    "Korean Translation": "조합"
+  },
+  {
+    "Math Term": "Binomial Theorem",
+    "Korean Translation": "이항정리"
+  },
+  {
+    "Math Term": "Statistics",
+    "Korean Translation": "통계"
+  },
+  {
+    "Math Term": "Mean",
+    "Korean Translation": "평균"
+  },
+  {
+    "Math Term": "Median",
+    "Korean Translation": "중앙값"
+  },
+  {
+    "Math Term": "Mode",
+    "Korean Translation": "최빈값"
+  },
+  {
+    "Math Term": "Variance",
+    "Korean Translation": "분산"
+  },
+  {
+    "Math Term": "Standard Deviation",
+    "Korean Translation": "표준편차"
+  },
+  {
+    "Math Term": "Correlation",
+    "Korean Translation": "상관관계"
+  },
+  {
+    "Math Term": "Regression",
+    "Korean Translation": "회귀 분석"
+  },
+  {
+    "Math Term": "Hypothesis Testing",
+    "Korean Translation": "가설 검정"
+  },
+  {
+    "Math Term": "Chi-Square Test",
+    "Korean Translation": "카이제곱 검정"
+  }
+]
