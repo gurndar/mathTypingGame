@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://resources/math_terms.Korean Translation.translation" ]
+
+source_file="res://resources/math_terms.csv"
+dest_files=[ "res://resources/math_terms.Korean Translation.translation" ]
+
+[params]
+
+compress=true
+delimiter=0
