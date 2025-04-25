@@ -18,4 +18,5 @@ func _ready():
 
 func _on_LineEdit_text_entered(new_text):
 	$"." .clear()
+	$".".select_all()
 	pass # Replace with function body.
