@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon180.png-dc008dc405dc81c6ef88a329e4e3828e.stex"
+path="res://.import/Hpbar.png-16f41b85bd97bc92103f89bec33508cc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon180.png"
-dest_files=[ "res://.import/icon180.png-dc008dc405dc81c6ef88a329e4e3828e.stex" ]
+source_file="res://Resources/Hpbar.png"
+dest_files=[ "res://.import/Hpbar.png-16f41b85bd97bc92103f89bec33508cc.stex" ]
 
 [params]
 
